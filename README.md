@@ -9,7 +9,7 @@ Failure Prediction: Detects potential machine failures before they occur.
 
 Failure Classification: Identifies specific failure types (HDF, PWF, OSF, TWF, RNF).
 
-Data-Driven Monitoring: Analyzes historical and real-time sensor data (temperature, torque, speed, tool wear).
+Data-Driven Monitoring: Analyzes historical data (temperature, torque, speed, tool wear).
 
 Condition-Based Maintenance: Replaces reactive and scheduled maintenance with intelligent scheduling.
 
