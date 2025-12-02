@@ -9,16 +9,16 @@ from streamlit.components.v1 import html
 # ---------------------------
 # 1. PAGE CONFIG
 # ---------------------------
-st.set_page_config(page_title="Predictive Maintenance App", layout="wide")
-st.title("🛠️ Predictive Maintenance Dashboard")
+st.set_page_config(page_title="MachineGuard Predictive Maintenance App", layout="wide")
+st.title("🛠️ MachineGuard Predictive Maintenance Dashboard")
 st.write("Enter machine sensor data to predict status and fault type.")
 
 # ---------------------------
 # 2. LOAD SCALER & MODELS
 # ---------------------------
-scaler = joblib.load(r"C:\Users\PC\Desktop\3mtt_Hacka\preprocess\scaler_singleClass.joblib")
-single_model = joblib.load(r"C:\Users\PC\Desktop\3mtt_Hacka\model\single_class_best_xgboost_model.joblib")
-multi_model = joblib.load(r"C:\Users\PC\Desktop\3mtt_Hacka\model\multi_class_best_xgboost_model.joblib")
+scaler = joblib.load(r"preprocess/scaler_singleClass.joblib")
+single_model = joblib.load(r"model/single_class_best_xgboost_model.joblib")
+multi_model = joblib.load(r"model/multi_class_best_xgboost_model.joblib")
 
 # ---------------------------
 # 3. FEATURES
